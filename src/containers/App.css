@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    font-family: 'Open Sans';
+    background: #eee;
+    padding-top: 10%;
+}
+.App {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;			 
+}
+.queryForm {
+    width: 50%;
+    padding: 10px 0;
+}
+
+.inputField {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 12px;
+}
+
+.inputField input {
+    padding: 5px;
+}
+
+.queryForm button {
+    display: flex;
+    background: blueviolet;
+    padding: 10px;
+    border: 0;
+    color: #fff;
+    margin: 0 auto;
+}
+
+.highchart-container {
+    width: 50%;
+}
