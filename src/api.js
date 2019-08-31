@@ -10,25 +10,25 @@ const handleErrors = (response) => {
 
 const fetchData = (query, fromDate, toDate, pageSize) => {
     return (
-        fetch(BASE_URL +
-              "'" +
-              query +
-              "'" +
-              ' AND ' +
-              'PUB_YEAR:' +
-              '[' +
-              "'" +
-              fromDate +
-              "'" +
-              '+TO+' +
-              "'" +
-              toDate +
-              "'" +
-              ']' +
-              '  sort_cited:y&format=json' +
-              '&pageSize=' +
-              pageSize +
-              '&resulttype=lite'
+        fetch(`${BASE_URL 
+              }'${ 
+              query 
+              }'` +
+              ` AND ` +
+              `PUB_YEAR:` +
+              `[` +
+              `'${ 
+              fromDate 
+              }'` +
+              `+TO+` +
+              `'${ 
+              toDate 
+              }'` +
+              `]` +
+              `  sort_cited:y&format=json` +
+              `&pageSize=${ 
+              pageSize 
+              }&resulttype=lite`
              )
             .then(handleErrors)
             .then(response => response.json())
