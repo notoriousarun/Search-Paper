@@ -4,7 +4,6 @@ import QueryForm from 'QueryForm';
 import Highcharts from 'highcharts';
 import HighchartsReact from 'highcharts-react-official';
 import iterator from '../utils/iterator';
-
 import 'App.css';
 
 class App extends Component {

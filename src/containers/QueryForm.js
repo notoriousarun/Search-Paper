@@ -9,28 +9,36 @@ const QueryForm = ({ handleSubmit }) => {
             <label htmlFor="query">
               Query
             </label>
-            <input id="query" placeholder="Please Enter your Query Details" type="text"/>
+            <input id="query"
+                   placeholder="Please Enter your Query Details"
+                   type="text"/>
           </div>
 
           <div className="inputField">
             <label htmlFor="fromYear">
               From Year
             </label>
-            <input id="fromYear" placeholder="From Year" type="text"/>
+            <input id="fromYear"
+                   placeholder="From Year"
+                   type="text"/>
           </div>
 
           <div className="inputField">
             <label htmlFor="toYear">
               To Year
             </label>
-            <input id="toYear" placeholder="To Year" type="text"/>
+            <input id="toYear"
+                   placeholder="To Year"
+                   type="text"/>
           </div>
           
           <div className="inputField">
             <label htmlFor="pageSize">
               Page Size
             </label>
-            <input id="pageSize" placeholder="How many Response wanted?" type="text"/>
+            <input id="pageSize"
+                   placeholder="How many Response wanted?"
+                   type="text"/>
           </div>
           
           <button type="submit">
@@ -38,6 +46,10 @@ const QueryForm = ({ handleSubmit }) => {
           </button>
         </form>
     );
+};
+
+QueryForm.propTypes = {
+    handleSubmit: PropTypes.func.isRequired
 };
 
 export default QueryForm;
