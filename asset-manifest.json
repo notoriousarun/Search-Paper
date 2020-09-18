@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/SEARCH-PAPER/static/css/main.ff909590.chunk.css",
-    "main.js": "/SEARCH-PAPER/static/js/main.d21b7147.chunk.js",
-    "main.js.map": "/SEARCH-PAPER/static/js/main.d21b7147.chunk.js.map",
-    "runtime~main.js": "/SEARCH-PAPER/static/js/runtime~main.1f8e1452.js",
-    "runtime~main.js.map": "/SEARCH-PAPER/static/js/runtime~main.1f8e1452.js.map",
-    "static/js/2.68298d9f.chunk.js": "/SEARCH-PAPER/static/js/2.68298d9f.chunk.js",
-    "static/js/2.68298d9f.chunk.js.map": "/SEARCH-PAPER/static/js/2.68298d9f.chunk.js.map",
-    "index.html": "/SEARCH-PAPER/index.html",
-    "precache-manifest.997644fddc6cdb0864f11e66af1cd241.js": "/SEARCH-PAPER/precache-manifest.997644fddc6cdb0864f11e66af1cd241.js",
-    "service-worker.js": "/SEARCH-PAPER/service-worker.js",
-    "static/css/main.ff909590.chunk.css.map": "/SEARCH-PAPER/static/css/main.ff909590.chunk.css.map"
+    "main.css": "/search-papers/static/css/main.ff909590.chunk.css",
+    "main.js": "/search-papers/static/js/main.10f58b1e.chunk.js",
+    "main.js.map": "/search-papers/static/js/main.10f58b1e.chunk.js.map",
+    "runtime~main.js": "/search-papers/static/js/runtime~main.7dfb4e62.js",
+    "runtime~main.js.map": "/search-papers/static/js/runtime~main.7dfb4e62.js.map",
+    "static/js/2.68298d9f.chunk.js": "/search-papers/static/js/2.68298d9f.chunk.js",
+    "static/js/2.68298d9f.chunk.js.map": "/search-papers/static/js/2.68298d9f.chunk.js.map",
+    "index.html": "/search-papers/index.html",
+    "precache-manifest.3e11d18e99b98fc1ca4177aa66a9f539.js": "/search-papers/precache-manifest.3e11d18e99b98fc1ca4177aa66a9f539.js",
+    "service-worker.js": "/search-papers/service-worker.js",
+    "static/css/main.ff909590.chunk.css.map": "/search-papers/static/css/main.ff909590.chunk.css.map"
   }
 }
