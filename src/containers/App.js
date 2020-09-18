@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import fetchData from '../api';
-import QueryForm from 'QueryForm';
+import fetchData from '../api.js';
+import QueryForm from '../containers/QueryForm.js';
 import Highcharts from 'highcharts';
 import HighchartsReact from 'highcharts-react-official';
-import iterator from '../utils/iterator';
-import 'App.css';
+import iterator from '../utils/iterator.js';
+import './App.css';
 
 class App extends Component {
     state = {

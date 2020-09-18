@@ -1,9 +1,11 @@
 {
+  "homepage": "http://notoriousarun.github.io/SEARCH-PAPER",
   "name": "search-papers",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@babel/runtime": "^7.5.5",
+    "gh-pages": "^3.1.0",
     "highcharts": "^7.1.3",
     "highcharts-react-official": "^2.2.2",
     "react": "^16.9.0",
@@ -11,7 +13,9 @@
     "react-scripts": "3.1.1"
   },
   "scripts": {
-    "start": "NODE_PATH=src:src/components:src/containers react-scripts start",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
