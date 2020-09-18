@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/search-paper/static/css/main.ff909590.chunk.css",
+    "main.js": "/search-paper/static/js/main.d21b7147.chunk.js",
+    "main.js.map": "/search-paper/static/js/main.d21b7147.chunk.js.map",
+    "runtime~main.js": "/search-paper/static/js/runtime~main.fbf7de1b.js",
+    "runtime~main.js.map": "/search-paper/static/js/runtime~main.fbf7de1b.js.map",
+    "static/js/2.68298d9f.chunk.js": "/search-paper/static/js/2.68298d9f.chunk.js",
+    "static/js/2.68298d9f.chunk.js.map": "/search-paper/static/js/2.68298d9f.chunk.js.map",
+    "index.html": "/search-paper/index.html",
+    "precache-manifest.013552501409dd5300cf023ef394d284.js": "/search-paper/precache-manifest.013552501409dd5300cf023ef394d284.js",
+    "service-worker.js": "/search-paper/service-worker.js",
+    "static/css/main.ff909590.chunk.css.map": "/search-paper/static/css/main.ff909590.chunk.css.map"
+  }
+}
